@@ -176,10 +176,5 @@ Feel free to fork this project and contribute by submitting pull requests. You c
 - **Feature Requests**: If you have an idea for a feature, submit an issue and create a pull request if you have a solution.
 - **Documentation**: Improve this documentation or add new usage examples.
 
-## License
-
-This project is open-source and available under the MIT License.
-
----
 
 Let me know if this works for you!
