@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.image-manipulation-tools {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-manipulation-tools button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.image-manipulation-tools button:hover {
+  background-color: #4CAF50;
+}
+
+.dicom-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dicom-image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode .App {
+  background-color: #1e1e1e;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-upload {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.image-upload input[type="file"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+body.dark-mode .image-upload input[type="file"] {
+  background-color: #333;
+  color: #fff;
+  border-color: #555;
+}
+
+.image-upload img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .image-upload img {
+  border-color: #444;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.annotation-tool {
+  margin-top: 30px;
+  width: 80%;
+  position: relative;
+}
+
+.annotation-tool select {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+body.dark-mode .annotation-tool select {
+  background-color: #333;
+  color: #fff;
+  border-color: #555;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: crosshair;
+}
+
+body.dark-mode canvas {
+  background-color: #222;
+  border-color: #555;
+}
+
+.measurement-tool {
+  margin-top: 40px;
+  width: 80%;
+}
+
+.measurement-tool h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.measurement-tool p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+body.dark-mode button {
+  background-color: #444;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  transform: scale(1.1);
+}
+
+body.dark-mode button:hover {
+  background-color: #3e8e41;
+}
+
+button:active {
+  background-color: #45a049;
+}
+
+body.dark-mode button:active {
+  background-color: #357a38;
+}
+
+.theme-toggle-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+body.dark-mode .theme-toggle-btn {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark-mode .theme-toggle-btn:hover {
+  background-color: #666;
+}
